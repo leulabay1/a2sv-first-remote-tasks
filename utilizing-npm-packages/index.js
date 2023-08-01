@@ -30,8 +30,8 @@ var users = [
     nameLogger2(`function call at 100`)
   },100)
   setTimeout(()=>{
-    nameLogger2("function call at 300")
+    nameLogger2("function call at 200")
   }, 200)
   setTimeout(()=>{
     nameLogger2("function call at 300")
-  }, 200)
+  }, 300)
